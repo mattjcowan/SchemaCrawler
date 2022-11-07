@@ -161,7 +161,7 @@ jobs:
 # CHECK WEBSITE LINKS
     - id: check-links
       name: Check website links
-      uses: lycheeverse/lychee-action@f1da3291e1d03cbe11a413ae9f16b62fec99e6b6 # @v1.4.1
+      uses: lycheeverse/lychee-action@25f59e1bc8f12b314a1e366f825e00d13de2d80b # @v1.5.2
       with:
         args: --verbose --accept 200,999 --no-progress ./schemacrawler-website/target/_website/**/*
       env:
